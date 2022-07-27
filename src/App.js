@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import TaskOne from './tasks/Task1/TaskOne';
+import TaskTwo from './tasks/Task2/TaskTwo';
+import TaskThree from './tasks/Task3/TaskThree';
+import TaskFour from './tasks/Task4/TaskFour';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () =>
+{
+  return(
+    <>
+      {/* <TaskOne /> */}
+      {/* <TaskTwo /> */}
+      <TaskThree />
+      {/* <TaskFour /> */}
+    </>
+  )
 }
 
 export default App;

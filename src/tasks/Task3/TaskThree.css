@@ -1,0 +1,61 @@
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav
+{
+    height: 15vh;
+    background-color: lightgray;
+    padding: 1rem 4rem;
+}
+
+nav.flex
+{
+    justify-content: space-between;
+}
+
+
+
+.logo a
+{
+    font-size: 2rem;
+    color: darkblue;
+}
+
+.navbar a
+{
+    color: darkblue;
+    font-size: 1.25rem;
+    margin: 0 0 0 1.25rem;
+}
+
+.navbar a.active
+{
+    color: darkred;
+    font-weight: bold;
+}
+
+.home-section, .about-section, .profile-section
+{
+    height: 75vh;
+}
+
+.home-section h4, .about-section h4, .profile-section h4
+{
+    font-size: 2rem;
+}
+
+footer
+{
+    height: 10vh;
+    background-color: darkblue;
+}
+
+footer span
+{
+    font-size: 1.5rem;
+    color: lightgray;
+}
